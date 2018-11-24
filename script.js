@@ -1,5 +1,13 @@
 "use strict";
 
-// let answer = prompt("hello", "world");
 
-console.log(4 + " object");
+function learnJS(lang, callback) {
+  console.log("Я учу JS" + lang);
+  callback();
+}
+
+function done() {
+  console.log("Я прошел 3 урок");
+}
+
+learnJS("JavaScript", done);
