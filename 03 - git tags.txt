@@ -14,5 +14,52 @@ git tag
 	
 		показать список тегов по маске названия
 		
+git push origin tag_name
+
+	пуш тега в репозиторий
+	
+	на гитхабе появится релиз с таким названием
+	
+	git push --tags
+	
+		запушить все релизы
 		
+git tag -d v1.0
+
+  удалить тег
+  
+  git tag --delete v1.0
+  
+	то же самое
+	
+	git tag --delete v1.0 v1.1
+	
+		удалить сразу несколько тегов
+	
+git push origin -d v1.0
+
+	удалить тег из репозитория
+
+	git push origin --delete v1.0
+
+	git push orighn :v1.0
+	
+	
+	git push origin -d v1.0 v1.1
+	
+		можно удалить сразу несколько
+	
+		
+git checkout -b <branch_name> <tag_name>
+
+	сделать ветку из тега и перейти в нее
+	
+	ветка будет с момента создания тега
+	
+git <tag_name> <часть_checksum_комита>
+
+	создать тег из коммита
+	
+	
+	
 	
