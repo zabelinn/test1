@@ -11,3 +11,53 @@ git status
 
 	состояние рабочей области в отношении git
 	
+git add
+
+	добавляет файлы в staging area
+	
+	git add file1.txt
+		
+		добавить один файл
+		
+	git add .
+	
+		добавить все, что не добавлено в staging area
+		
+git commit -m "my comment"
+
+	комит staging area в локальный репозиторий
+	
+git remote add origin https://github.com/zabelinn/test1.git	
+
+	прописать путь для проекта к репозиторию github репозиторий
+	
+	-- обновить
+	git remote set-url origin https://github.com/axaysushir/netflix_page_clone.git
+	
+git push -u origin master
+
+	запушить проект на github
+	
+	
+git config	
+	
+	настройка 
+
+	пользователя:
+
+		git config --global user.email "zabelinn@yandex.ru"	
+
+		git config --global user.name "zabelinn"	
+	
+	показать настройки
+
+		git config --list --show-origin
+
+clear
+
+	очистить экран
+	
+git --help
+
+	помощь по командам
+	
